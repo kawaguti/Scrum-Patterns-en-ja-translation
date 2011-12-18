@@ -1,0 +1,10 @@
+This is James O. Coplien's Scrum Patterns and other his documents.
+Translations have done using OmegaT, so this directory structure is same as OmegaT. 
+
+
+  - source : Original (English) text files
+  - target : translated (Japanese) text files
+             OmegaT generates Japanese file SJIS encoding, I converted to UTF-8
+
+Please feel free to send me your better translations.
+Yasunobu Kawaguchi
