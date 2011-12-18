@@ -1,0 +1,9 @@
+Scrum and Organizational Patterns
+
+In the early days of what we now know as Agile processes, Mike Beedle was influenced by the online description of Scrum, implemented the process in his own company, and led the effort to drive Scrum through the Pattern Languages of Programming Design conferences. This made Scrum the first (and only) formal organizational pattern that describes a complete Agile process. One of the patterns books contains the Scrum pattern:
+
+M. Beedle, M. Devos, Y. Sharon, K. Schwaber, and J. Sutherland, "Scrum: A Pattern Language for Hyperproductive Software Development," in Pattern Languages of Program Design. vol. 4, N. Harrison, Ed. Boston: Addison-Wesley, 1999, pp. 637-651.
+
+Recent work by Jim Coplien shows that Scrum is deceptively simply while compressing a complex array of organizational patterns in his book, "Organizational Patterns in Agile Software Development." Jim was surprised when he found that Scrum compresses at least 33 patterns from his book into a concept that can be explained in 2 minutes. It takes over 60 pages of rather dense text to describe these patterns. Click here for details of Jim's presentation on Scrum and patterns.
+
+One of Scrum's design goals was to encapsulate best practices from 40 years of software development into a process that was simple enough for the average IT worker to use for development in less than 2 days of startup time. Jim's research shows that we did a good job of accomplishing that goal. You can download a copy of the complete Scrum pattern as it is part of a draft of "The Scrum Papers."

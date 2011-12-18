@@ -1,0 +1,242 @@
+Scrum Patterns Summary
+The patterns without which Scrum is unlikely to work
+
+These patterns are Scrum. In June 2008, founders of Scrum and Organizational Patterns met together with a small number of other experts from both camps to map out patterns from the book Organizational Patterns of Agile Software Development as they apply to projects under the Scrum framework. These patterns represent elements of the framework, as well as fundamental practices which dissect the framework into its fundamental underlying components. Because patterns work at the level of structure rather than cause-and-effect, we call these patterns Second-Level Scrum patterns, which can be compared to the First- and Third-level Scrum patterns described below.
+
+These patterns are independent of software development per se. The group also agreed to patterns without which Scrum is unlikely to succeed, and about which Jeff Sutherland said he has incorporated into every Scrum he has started. These can be found on the page Software Scrum Patterns.
+
+The third and final part of the picture is the pattern language by Beedle et al. that describes the cause-and-effect components of Scrum. You can see a summary of those on the page First-Level Scrum Patterns.
+
+See the pattern language picture at the bottom of this page.
+
+
+
+Pattern Name : COMMUNITY OF TRUST
+
+Description  : People are open enough to surface uncomfortable truths
+
+Scrum Notes  : Scrum is based on honesty, openness, and visibility
+
+
+Pattern Name : WORK QUEUE	
+
+Description  : 
+
+Scrum Notes  : You have a product backlog and a sprint backlog
+
+
+Pattern Name : NAMED STABLE BASES
+
+Description  : Don't use continuous integration, because that makes it difficult for the team to have a shared vision of where the base stands. Integrate public integrations regularly
+
+Scrum Notes  : While continuous integration is the norm, you also have a delineated, agreed target where everything must converge in a coordinated way at the end of a sprint. Also, some architectural changes cannot be made piecemeal but are best handled by offline work on a branch administered by the source management system.
+
+
+Pattern Name : ENGAGE CUSTOMERS
+
+Description  : Customers should be tightly coupled to the organization
+
+Scrum Notes  : Scrum has no customer role! However, no Scrum would be complete without one. Note that the Product Owner is not the customer: the Product Owner stands to optimize ROI for the enterprise, and though this role takes input from the customer, it is not the locus of caring for customer interests! However, also see SURROGATE CUSTOMER below.
+
+
+Pattern Name : SIZE THE ORGANIZATION
+
+Description  : Start small and grow gradually
+
+Scrum Notes  : Small teams work best. Scrum talks about teams of seven plus or minus two people; over time, the smaller teams have been winning out over the larger ones.
+
+
+Pattern Name : FEW ROLES
+
+Description  : The total number of roles is small
+
+Scrum Notes  : Of course, original Scrum has only three roles. However, because DOMAIN EXPERTISEIN ROLES is also important we admit a small number of specialized roles. If there are too many roles (areas of specialization) the specialization works against the process of finding out what you need to know in a hurry.
+
+
+Pattern Name : INFORMAL LABOR PLAN
+
+Description  : If developers need to do the most important thing now, then let developers negotiate among themselves or "just figure out the right thing to do" as regards short term plans, instead of master planning.
+
+Scrum Notes  : This is the essence of a self-organizing team in Scrum, as regards processing the tasks on the sprint backlog. Keeping top-down formality out of the labor plan allows the team to optimize their own resources so that no team member is ever idle.
+
+
+Pattern Name : PROGRAMMING EPISODE
+
+Description  : You have fixed-length sprints
+
+Scrum Notes  : This concept is at the heart of Scrum. Having fixed-length sprints is a way to protect the team from the death of a thousand small cuts of schedule creep.
+
+
+Pattern Name : STAND-UP MEETING
+
+Description  : Get the team together for a regular short meeting to exchange status information.
+
+Scrum Notes  : The daily Scrum.
+
+
+Pattern Name : SURROGATE CUSTOMER
+
+Description  : Sometimes, if it is inconvenient or impossible to talk to a real customer in real time, you need a local stand-in.
+
+Scrum Notes  : Your Product Owner conveys an understanding of aggregate customer needs to the team.
+
+
+Pattern Name : ENGAGE QUALITY ASSURANCE
+
+Description  : Quality Assurance is not an afterthought
+
+Scrum Notes  : There is no testing team; testers are part of the team. You also need automated check-in testing for Scrum to work well; otherwise you end up with production rework and waste.
+
+
+Pattern Name : SELF-SELECTING TEAM
+
+Description  : Appointed teams don't work. The people should decide what people should be on which teams.
+
+Scrum Notes  : Ken recently refused to go to a client because they were unwilling to allow people to self-select the teams for the release process.
+
+
+Pattern Name : PRODUCER ROLES
+
+Description  : If your organization has too many roles, but does not know which to eliminate, then identify roles as Producers, Supporters, or Deadbeats; eliminate the Deadbeats and combine some of the Supporters
+
+Scrum Notes  : Scrum's mapping into Lean strives to eliminate the waste of deadbeat roles. Scrum's entire focus is on a team that produces product. Anything that doesn't contribute to product is waste.
+
+
+Pattern Name : ORGANIZATION FOLLOWS LOCATION
+
+Description  : Units of a feather flock together: the organization is colocated
+
+Scrum Notes  : Though there are distributed Scrum teams that are very productive, don't try this at home. Scrum is based on teams, and a team is a colocated collection of 7 people or less united under a common goal
+
+
+Pattern Name : DEVELOPER CONTROLS PROCESS
+
+Description  : The developer calls the shots
+
+Scrum Notes  : The team is self-organizing; there is no process document, team leader nor manager who controls the partial ordering of tasks
+
+
+Pattern Name : SOMEONE ALWAYS MAKES PROGRESS
+
+Description  : If distractions constantly interrupt your team's progress, then whatever happens, ensure someone keeps moving toward your primary goal. Deal with distractions by SACRIFICE ONE PERSON, DAY CARE, etc.
+
+Scrum Notes  : The failure of any team member to make progress is an impediment. The ScrumMaster doesn't let a day go by without starting to address such impediments.
+
+
+Pattern Name : TAKE NO SMALL SLIPS
+
+Description  : If you find it will take more time, don't add small schedule increments: take significant slips
+
+Scrum Notes  : This is the Sprint Abort in Scrum
+
+
+Pattern Name : PRODUCERS IN THE MIDDLE
+
+Description  : If your developers are somewhat lost, then make sure the producer roles are at the center of the organization.
+
+Scrum Notes  : You want the focus of the process to be on the producers, the developers, those who build things that build things that generate revenues. You don't want managers in the middle of the process; that results in wait states and suboptimal scheduling.
+
+
+Pattern Name : INTERRUPTS UNJAM BLOCKING
+
+Description  : This is a "stop the assembly line" pattern of XP on a small scale. If someone is blocked, bring resources to bear to get things back on track.
+
+Scrum Notes  : This is the Lean concept of "flow." The team always processes items on the sprint backlog in a way that optimizes velocity and reduces the risk of sprint failure.
+
+
+Pattern Name : COMPLETION HEADROOM
+
+Description  : If work is progressing against a set of hard dates, then make sure there is completion headroom between the completion dates of the largest task and the hardest delivery dates.
+
+Scrum Notes  : A Scrum team always plans for the un-plannable when doing estimation; this shows up in velocity as part of drag, or is otherwise accounted when the team commits to the planned items at the beginning of a sprint. The burn-down chart is a good real-time indicator of remaining headroom
+
+
+Pattern Name : RECOMMITMENT MEETING
+
+Description  : You stop the assembly line if you can't meet your team commitment
+
+Scrum Notes  : The team re-commits to the product owner after every sprint, and revisits their commitment to the product owner in the case that the sprint is aborted.
+
+
+Pattern Name : FIREWALLS
+
+Description  : Someone has to keep the monkeys off the developers' backs.
+
+Scrum Notes  : The ScrumMaster protects the team from those who "want to help."
+
+
+Pattern Name : UNITY OF PURPOSE
+
+Description  : If a team is beginning to work together then make sure all members agree on the purpose of the team, and sustain that agreement over time.
+
+Scrum Notes  : Scrum is based on teams, and you can't have teams without this.
+
+
+Pattern Name : PATRON ROLE
+
+Description  : There is someone who defends the developer at the enterprise level (in Scrum, the product owner)
+
+Scrum Notes  : The team needs a sponsor who can remove obstacles and provide resources. The ScrumMaster is only the "scrounger" who goes looking for these resources when needed; the team needs a patron who helps protect and nourish the Scrum effort, and its product, as a whole.
+
+
+Pattern Name : HOLISTIC DIVERSITY
+
+Description  : If development of a subsystem needs many skills, but people specialize, then create a single team from multiple specialities.
+
+Scrum Notes  : This is the cross-functional team of Scrum.
+
+
+Pattern Name : DISTRIBUTE WORK EVENLY
+
+Description  : There are no individual supermen bearing the majority of the work: everyone is equally busy (or relaxed)
+
+Scrum Notes  : You want a team that doesn't have to continually depend on heroes. In Scrum, a team is self-organizing, and that implies that no one person is taking on an unfair share of the burden.
+
+
+Pattern Name : RESPONSIBILITIES ENGAGE
+
+Description  : People play roles that keep them connected to the core of the organization. In Scrum, this is about commitment
+
+Scrum Notes  : This is important not only from the perspective of load balancing (a way to support DISTRIBUTE WORK EVENLY but also relates the team commitment to the team and its tasks.
+
+
+Pattern Name : SHAPING CIRCULATION REALMS
+
+Description  : Give people responsibilities that cause the communication network to be even, and to help create the organizational taxonomy you want. You want to do that because everyone on the team is responsible
+
+Scrum Notes  : There are many examples of this in Scrum: the assignment of tasks to team members during a sprint; the physical environment that supports a team working together in something like an XP room; the ScrumMaster working impediments by facilitating the balance of responsibilities across team members.
+
+
+Pattern Name : GROUP VALIDATION
+
+Description  : Reviews and validation are good not only for the sake of the code, but for information exchange as well.
+
+Scrum Notes  : It is the team that is committed in Scrum - it isn't just QA who signs off on it.
+
+
+Pattern Name : 3 TO 7 HELPERS PER ROLE
+
+Description  : You want roles to be well connected, but not to be God roles.
+
+Scrum Notes  : Scrum is all about communication. There shouldn't be much hierarchy in an effective team with short communication paths, but everyone should be well-connected. 
+
+
+Pattern Name : MOVE RESPONSIBILITIES
+
+Description  : Move responsibilities around to SHAPE CIRCULATION REALMS
+
+Scrum Notes  : If the team is overloaded, or if a person is left idle during a sprint, no team member can say "I won't take that responsibility." If a tester is asked to help the development task, but can't code effectively, he or she can at least get coffee for the team.
+
+
+Pattern Name : COUPLING DECREASING LATENCY
+
+Description  : Closely coupled roles reduce delay
+
+Scrum Notes  : Scrum is all about communication and velocity. Communication reduces the time it takes to make decisions, and that increases velocity.
+
+
+Pattern Name : TEAM PRIDE
+
+Description  : If a team needs to perform above and beyond the call of duty then instill a well-grounded sense of elitism in its members.
+
+Scrum Notes  : A good team has commitment and an identity; they aren't just punching time clocks.
